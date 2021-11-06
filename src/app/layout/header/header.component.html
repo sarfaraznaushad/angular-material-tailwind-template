@@ -1,0 +1,23 @@
+<div class="flex w-full drop-shadow-md  border-b py-2  justify-around">
+    <div class="flex-1 pl-2 pt-1">
+        <button mat-icon-button (click)="toggleSidebar()">
+            <mat-icon>menu</mat-icon>
+        </button>
+    </div>
+    <div class="flex-1 text-right pr-2 pt-1">
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <mat-icon>person</mat-icon>
+              <span>Sarfaraz Khan</span>
+            </button>
+           
+            <button mat-menu-item>
+              <mat-icon>logout</mat-icon>
+              <span>Logout</span>
+            </button>
+          </mat-menu>
+    </div>
+</div>
