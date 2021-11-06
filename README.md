@@ -2,6 +2,6 @@
 Angular material boilerplate with tailwind css
 
 To run it just do three steps
-1. # Clone it
-2. # npm install
-3. # ng serve
+1. <b>Clone it</b>
+2. <b>npm install</b>
+3. <b>ng serve</b>
